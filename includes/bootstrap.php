@@ -59,3 +59,19 @@ function verify_csrf(): bool
     $token = $_POST['csrf_token'] ?? '';
     return is_string($token) && isset($_SESSION['csrf_token']) && hash_equals($_SESSION['csrf_token'], $token);
 }
+
+function google_oauth_config(): array
+{
+    return [
+        'client_id' => (string) (getenv('GOOGLE_CLIENT_ID') ?: ''),
+        'client_secret' => (string) (getenv('GOOGLE_CLIENT_SECRET') ?: ''),
+        'redirect_uri' => (string) (getenv('GOOGLE_REDIRECT_URI') ?: ''),
+    ];
+}
+
+function google_oauth_is_configured(): bool
+{
+    $config = google_oauth_config();
+
+    return $config['client_id'] !== '' && $config['client_secret'] !== '' && $config['redirect_uri'] !== '';
+}

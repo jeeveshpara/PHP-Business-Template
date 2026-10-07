@@ -3,7 +3,7 @@ $page_title = 'Services';
 $page_description = 'Brand strategy, web design, and development services from Nexa Studio.';
 require __DIR__ . '/includes/header.php';
 ?>
-<section class="page-hero"><div class="container narrow"><p class="eyebrow">Services</p><h1>Everything you need to make a <em>meaningful</em> first impression.</h1><p class="lead">Bring us in for one focused challenge or let us guide the whole journey from idea to launch.</p></div></section>
+<section class="page-hero services-hero"><div class="container page-hero-grid"><div><p class="eyebrow">Services</p><h1>Everything you need to make a <em>meaningful</em> first impression.</h1><p class="lead">Bring us in for one focused challenge or let us guide the whole journey from idea to launch.</p><div class="hero-service-tags"><span>Strategy</span><span>Design</span><span>Build</span></div></div><div class="services-hero-visual" aria-hidden="true"><article><span>01</span><b>Find<br>focus</b></article><article><span>02</span><b>Make it<br>clear</b></article><article><span>03</span><b>Move<br>forward</b></article></div></div></section>
 <section class="section service-list"><div class="container">
 <article class="service-row"><span>01</span><div><h2>Brand strategy</h2><p>Clarify your place in the market and build a brand foundation your team can use every day.</p></div><ul><li>Research & workshops</li><li>Positioning</li><li>Messaging systems</li></ul></article>
 <article class="service-row"><span>02</span><div><h2>Web design</h2><p>Shape a clear, expressive experience that guides people from first visit to real action.</p></div><ul><li>User journeys</li><li>UX/UI design</li><li>Design systems</li></ul></article>
