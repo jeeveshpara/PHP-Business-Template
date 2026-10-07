@@ -17,10 +17,12 @@ $flash = get_flash();
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
     <div class="container nav-wrap">
         <a class="brand" href="index.php" aria-label="Nexa Studio home"><span class="brand-mark">N</span><span>Nexa<span>Studio</span></span></a>
-        <nav class="main-nav" aria-label="Primary navigation">
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation"><span></span><span></span></button>
+        <nav class="main-nav" id="site-navigation" aria-label="Primary navigation">
             <a class="<?= is_current_page('index.php') ? 'active' : '' ?>" href="index.php">Home</a>
             <a class="<?= is_current_page('about.php') ? 'active' : '' ?>" href="about.php">About</a>
             <a class="<?= is_current_page('services.php') ? 'active' : '' ?>" href="services.php">Services</a>
@@ -36,7 +38,7 @@ $flash = get_flash();
         </div>
     </div>
 </header>
-<main>
+<main id="main-content">
     <?php if ($flash): ?>
         <div class="container flash-wrap"><div class="flash flash-<?= escape($flash['type']) ?>" role="status"><?= escape($flash['message']) ?></div></div>
     <?php endif; ?>

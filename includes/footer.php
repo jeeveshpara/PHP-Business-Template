@@ -7,5 +7,6 @@
     </div>
     <div class="container footer-bottom"><span>&copy; <?= date('Y') ?> Nexa Studio. Built with PHP.</span><a href="404.php">Privacy</a></div>
 </footer>
+<script src="assets/js/navigation.js"></script>
 </body>
 </html>

@@ -29,4 +29,12 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 <section class="section quote-section"><div class="container quote-box"><p class="eyebrow">Client perspective</p><blockquote>“Nexa brought calm, structure, and real momentum to a complex launch. The result feels exactly like us—only sharper.”</blockquote><div class="quote-author"><span>SL</span><div><strong>Samantha Lee</strong><small>Founder, Common Thread</small></div></div></div></section>
+<section class="section selected-work" id="work">
+    <div class="container section-heading split-heading"><div><p class="eyebrow">Selected work</p><h2>Thoughtful details that turn attention into action.</h2></div><a class="text-arrow" href="contact.php">See what we could build →</a></div>
+    <div class="container work-grid">
+        <article class="work-card work-card-terra"><div class="work-copy"><span>Brand + digital</span><h3>Rove<br>outdoors</h3><small>Clarity for a growing adventure brand.</small></div><div class="work-terra-art" aria-hidden="true"><i></i><b></b><em></em></div></article>
+        <article class="work-card work-card-ink"><div class="work-copy"><span>Platform design</span><h3>Common<br>Thread</h3><small>Bringing a modern community to life.</small></div><div class="work-ink-art" aria-hidden="true"><i>01</i><i>02</i><i>03</i></div></article>
+    </div>
+</section>
+<section class="section process-section"><div class="container process-layout"><div><p class="eyebrow">Our approach</p><h2>A focused process, without the theatre.</h2><p class="lead">We give every phase a clear outcome, so your team always knows what is happening and why it matters.</p></div><ol class="process-list"><li><span>01</span><div><h3>Understand</h3><p>We clarify the opportunity, audience, and definition of success.</p></div></li><li><span>02</span><div><h3>Shape</h3><p>We turn the strategy into a clear experience and visual direction.</p></div></li><li><span>03</span><div><h3>Launch</h3><p>We build, test, refine, and make the handover feel effortless.</p></div></li></ol></div></section>
 <?php require __DIR__ . '/includes/footer.php'; ?>
